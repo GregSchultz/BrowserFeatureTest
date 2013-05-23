@@ -1,0 +1,28 @@
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-04-11 10:36:56
+project --topLevelPackage com.medassets.browser
+hint
+jpa setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY 
+hint
+entity jpa --class ~.Timer --testAutomatically 
+field string --fieldName message --notNull 
+web mvc setup
+// [failed] selenium test --controller ~.web.TimerController
+web mvc all --package ~.web
+selenium test --controller ~.web.TimerController
+perform tests
+perform package
+perform eclipse
+quit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-04-11 10:47:03
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-04-11 10:52:54
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2013-04-11 10:56:30
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-04-11 10:57:50
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2013-04-11 10:58:11
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-04-11 10:58:41
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2013-04-11 11:02:37
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-04-11 11:05:08
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2013-04-11 11:12:33
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-04-11 11:13:53
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-04-17 14:53:37
+quit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-04-17 14:53:41
